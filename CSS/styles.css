@@ -1,0 +1,150 @@
+/********************** OVERALL **********************/
+
+body {
+  color: #001E6B;
+  font-family: 'Raleway', sans-serif;
+  margin: 0;
+  text-align: center;
+}
+
+a {
+  color: #FFF5FD;
+}
+a:hover {
+  color: #6DECB9;
+}
+
+h1 {
+  color: #4C4C6D;
+  font-size: 4rem;
+  font-family: 'Great Vibes', cursive;
+  margin-top: 0;
+
+}
+
+h2 {
+  color: #4C4C6D;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+  color: #FFF5FD;
+  font-family: 'Montserrat', sans-serif;
+}
+
+hr {
+  width: 90%;
+  border: none;
+  border-top: 5px dashed #6DECB9;
+}
+
+
+.underline {
+  text-decoration: underline;
+  text-decoration-style: solid;
+}
+
+/********************** Section 1 **********************/
+.top-container {
+  background-color: #FFF5FD;
+  position: relative;
+  padding-top: 10%;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 27%;
+  top: 12%;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 27%;
+  bottom: 40%;
+}
+
+.header-intro-text {
+  margin: 3% auto 0 auto;
+}
+
+.header-descr-text {
+  font-size: 1.5rem;
+  font-weight: normal;
+  line-height: 2;
+
+}
+
+/********************** Section 2 **********************/
+.middle-container {
+  background-color: #FFE194;
+  /* padding: 1rem 0; */
+}
+.profile, .skills, .contact-me{
+  padding: 2rem 0;
+}
+
+.middle-images {
+  width: 40%;
+}
+
+.digital-skills-img {
+  float: left;
+  margin-right: 2rem;
+}
+.language-skills-img {
+  float: right;
+  /* margin-left: 2rem; */
+}
+
+.profile-pic {
+  width: 20%;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 3% auto;
+  text-align: left;
+}
+.skills-divider {
+  width: 25%;
+  border: none;
+  border-top: 2px dotted #4C4C6D;
+  margin-left: 0;
+}
+
+/********************** Section 3 **********************/
+
+.btn-contact {
+  position: relative;
+  top: 2.5rem;
+  border: 2px solid #FFF5FD;
+  border-radius: 2rem;
+  text-decoration: none;
+  padding: 1rem;
+  background-color: #FFE194;
+  color: #4C4C6D;
+}
+
+.btn-contact:hover {
+  background-color: #4C4C6D;
+  color: #FFE194;
+  padding: 1.5rem;
+}
+
+
+.bottom-container {
+  background-color: #4C4C6D;
+  padding: 4rem 0 2rem;
+}
+
+.footer-link {
+  margin: 2rem;
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+
+.copyright-text {
+  margin-bottom: 0;
+  color: #FFE194;
+  padding: 1rem 0;
+}
